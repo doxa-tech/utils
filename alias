@@ -1,0 +1,17 @@
+# To be loaded by ~/.profile
+# To load : . ~/.jstech
+
+# Switch terminal theme
+function tabc() {
+NAME=$1; if [ -z "$NAME" ]; then NAME="Pro"; fi
+osascript -e "tell application \"Terminal\" to set current settings of front window to settings set \"$NAME\""
+}
+EDITOR='subl -w'
+
+# SSH
+alias sshresj="tabc SSH-Theme; ssh resj@146.185.183.84 -p 77; tabc"
+alias ssheebulle="tabc SSH-Theme; ssh eebulle@146.185.163.64 -p 77; tabc"
+alias sshjstech="tabc SSH-Theme; ssh jstech@188.166.35.173 -p 77; tabc"
+
+# Deploy
+alias eebulledeploy="ssh eebulle@146.185.163.64 -p 77 'cd /var/www/48.eebulle.ch/public_html/eebulle.48/ && git pull'"
