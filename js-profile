@@ -19,3 +19,4 @@ alias deploybati.ch='ssh jstech@188.166.35.173 -p $JSPORT "cd /var/www/bati.ch/p
 alias deploymicroglobal='ssh jstech@188.166.35.173 -p $JSPORT "cd /var/www/microglobal.ch/public_html/microglobal/ && git pull"'
 alias deployfribourgeebulle='ssh eebulle@146.185.163.64 -p $JSPORT "cd /var/www/fribourg.eebulle.ch/public_html/eebulle.fribourg/ && git pull"'
 alias deployromonteebulle='ssh eebulle@146.185.163.64 -p $JSPORT "cd /var/www/romont.eebulle.ch/public_html/eebulle.romont/ && git pull"'
+alias deploywaykup='ssh eebulle@146.185.163.64 -p $JSPORT "cd /var/www/waykup.ch/public_html/waykup.ch/ && git pull"'
