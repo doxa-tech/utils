@@ -17,6 +17,9 @@ $ sudo vim sites-available/my.example.ch
 > listen [::]:80 default_server;
 > root /var/www/my.example.ch/public_html/example.my;
 > server_name waykup.ch www.waykup.ch;
+```
+**Ebable site and restart service**
+```
 $ sudo ln -s /etc/nginx/sites-available/my.example.ch /etc/nginx/sites-enabled/
 $ sudo service nginx restart
 ```
