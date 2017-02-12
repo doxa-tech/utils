@@ -1,5 +1,10 @@
 #!/bin/bash
+# Init static website with default nginx config from github.
+#
 # Usage ./staticd <host> <git> <user>
+#
+# curl https://raw.githubusercontent.com/JS-Tech/utils/master/deploystatic.sh | bash -s <host> <git> <user>
+# 
 set -e
 WEBDIR="/var/www/$1/public_html"
 sudo mkdir -p $WEBDIR
