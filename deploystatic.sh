@@ -12,4 +12,4 @@ sudo chown $3 $WEBDIR
 git clone $2 $WEBDIR
 sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/$1
 sudo ln -s /etc/nginx/sites-available/$1 /etc/nginx/sites-enabled/
-sudo service nginx restart
+#sudo service nginx restart
