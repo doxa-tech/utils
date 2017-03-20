@@ -25,3 +25,4 @@ alias deploywaykup='ssh eebulle@146.185.163.64 -p $JSPORT "cd /var/www/waykup.ch
 alias deploymyeebulle='ssh eebulle@146.185.163.64 -p $JSPORT "cd /var/www/my.eebulle.ch/public_html/eebulle.my/ && git pull"'
 alias deployrougemont='ssh eebulle@146.185.163.64 -p $JSPORT "cd /var/www/rougemont.eebulle.ch/public_html/eebulle.rougemont/ && git pull"'
 alias deployma-sagefemme='ssh jstech@188.166.35.173 -p $JSPORT "cd /var/www/ma-sagefemme.ch/public_html/ma-sagefemme.ch/ && git pull"'
+alias deployconakry='ssh jstech@188.166.35.173 -p $JSPORT -i $SERVER_KEY "cd /var/www/conakryswissclean.ch/public_html/ && git pull"'
