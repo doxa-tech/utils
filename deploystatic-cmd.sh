@@ -11,3 +11,6 @@ curl https://raw.githubusercontent.com/JS-Tech/utils/master/deploystatic.sh | ba
 
 # /var/www/microglobal.ch/public_html
 curl https://raw.githubusercontent.com/JS-Tech/utils/master/deploystatic.sh | bash -s microglobal.ch https://github.com/khcr/microglobal.git jstech
+
+# /var/www/conakryswissclean.ch/public_html
+curl https://raw.githubusercontent.com/JS-Tech/utils/master/deploystatic.sh | bash -s conakryswissclean.ch https://github.com/JS-Tech/ConakrySC.git jstech
